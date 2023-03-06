@@ -25,7 +25,7 @@
 
 See [load_recordings.py](load_recordings.py) for a sample script on how to work with these samples.
 
-Data Sample:
+[Data Sample:](load_recordings.py)
 
 ```
 EMG0   EMG1   EMG2   EMG3   EMG4   EMG5   EMG6   EMG7   GyrX   GyrY   GyrZ   AccX   AccY   AccZ
