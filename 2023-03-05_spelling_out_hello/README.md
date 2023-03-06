@@ -1,5 +1,7 @@
 # Spelling Out "hello" 
 
+This data set is a recording of various arm movements, including 4 gestures which were labeled by pressing a certain key on the keyboard at the same time as performing the gestures.  The 4 gestures represent a letter.  The letters were "h", "e", "l", and "o", with the intention to spell out "hello" with the gestures later.  [This video](https://peertube.linuxrocks.online/w/7BzhGuUMBKbzDHTddJaCy4) shows the recording process.  From minute 7 on, it shows how a neural network trained on this data set predicts the letters, along with a successful attempt to spell out "hello", although the results are not perfect.
+
 - Date: 2023-03-05
 - Format:
     - Signals: Python Numpy file, Compressed NPZ
