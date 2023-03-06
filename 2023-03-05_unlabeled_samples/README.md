@@ -15,7 +15,9 @@
         - 5-8: upside of the forearm
     - 3 Gyroscope Channels (X, Y, Z)
     - 3 Accelerometer Channels (X, Y, Z)
-- Samples: 116975
-    - Originally, values between 0 and 255. Normalized to floats between 0 and 1.
+- Samples: 116975 x 14
+    - Originally, values between 0 and 255
+    - Normalized to floats between 0.0 and 1.0 (by dividing by 256)
+    - Steps between possible sample values: 0.00390625 (=1/256)
 
 See [load_recordings.py](load_recordings.py) for a sample script on how to work with these samples.
