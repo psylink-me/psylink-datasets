@@ -18,4 +18,4 @@
 - Samples: 116975
     - Originally, values between 0 and 255. Normalized to floats between 0 and 1.
 
-See `load_recordings.py` for a sample script on how to work with these samples.
+See [load_recordings.py](load_recordings.py) for a sample script on how to work with these samples.
