@@ -6,7 +6,7 @@ This data set is a recording of various arm movements, including 4 gestures whic
 - Format:
     - Signals: Python Numpy file, Compressed NPZ
     - Labels: JSON array
-    - Label order: JSON array (used for loading pretrained PsyLink neural network models)
+    - Label order: JSON array (used for loading pre-trained PsyLink neural network models)
 - PsyLink Version: [P9.2](https://psylink.me/p9.2)
 - Arduino Firmware: [AnalogToBLE 1.1](https://psylink.me/sabt1.1/) [(source code)](https://codeberg.org/psylink/psylink/src/commit/6fcf7106994c005129073e6d00aa8bab947311f1/arduino/AnalogToBLE1.1/AnalogToBLE1.1.ino)
 - Recorded with [PsyLink UI](https://psylink.me/s3)
@@ -26,7 +26,7 @@ This data set is a recording of various arm movements, including 4 gestures whic
     - Each time step includes 250 EMG/IMU datasets with 14 channels each
         - The last of the 250 data sets are the most recent signals
         - The data sets before that are historical signals which are shifted to the left each time a new signal comes in, forming a Toeplitz matrix
-        - Occasionally, bluetooth packets are dropped, causing a reset of the buffer of historical signals, and therefore a discontinuity in the Toeplitz matrix
+        - Occasionally, Bluetooth packets are dropped, causing a reset of the buffer of historical signals, and therefore a discontinuity in the Toeplitz matrix
 - Load these recorded samples into [PsyLink UI](https://psylink.me/s3) by copying this folder to `psylink/python/save_default`, running `ui.py`, and clicking "File" -> "Load recorded samples"
 
 See [load_signals.py](load_signals.py) for a sample script on how to work with these samples.
