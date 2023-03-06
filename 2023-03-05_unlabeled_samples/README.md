@@ -1,6 +1,7 @@
 # Unlabeled Samples
 
-![gnuradio screenshot](gnuradio_screenshot.png)
+![gnuradio screenshot](screenshot_gnuradio_flowgraph.png)
+![gnuradio screenshot](screenshot_plots.png)
 
 - Date: 2023-03-05
 - Format: Python Numpy file, Compressed NPZ
