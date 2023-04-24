@@ -1,3 +1,5 @@
+# PsyLink Datasets
+
 This is a collection of datasets that have been recorded with PsyLink.  You can use it to work with PsyLink's data without having access to a PsyLink, or to check whether your PsyLink is working properly.
 
 Each dataset is bundled with supplementary material, such as:
@@ -10,6 +12,6 @@ Each dataset is bundled with supplementary material, such as:
 - Small data samples in plain text format
 - Sample code that opens and processes the dataset
 
-Browse the subdirectories for individual datasets
+Browse the subdirectories for individual datasets.
 
 ![Screenshot during data collection](2023-03-05_unlabeled_samples/screenshot_plots.png)
