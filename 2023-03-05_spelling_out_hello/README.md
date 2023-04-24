@@ -22,6 +22,7 @@ This data set is a recording of various arm movements, including 4 gestures whic
     - 3 Accelerometer Channels (X, Y, Z)
 - Samples: 201275 x 250 x 14
     - Values between 0 and 255
+        - Volt difference between values: 9.8mV
     - 201275 time steps
     - Each time step includes 250 EMG/IMU datasets with 14 channels each
         - The last of the 250 data sets are the most recent signals

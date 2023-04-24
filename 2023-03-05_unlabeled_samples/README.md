@@ -20,6 +20,7 @@
     - 3 Accelerometer Channels (X, Y, Z)
 - Samples: 116975 x 14
     - Originally, values between 0 and 255
+        - Volt difference between values: 9.8mV
     - Normalized to floats between 0.0 and 1.0 (by dividing by 256)
     - Steps between possible sample values: 0.00390625 (=1/256)
 
