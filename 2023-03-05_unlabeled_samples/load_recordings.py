@@ -9,6 +9,12 @@ samples = npz_file['arr_0']
 print(samples.shape)
 # -> (116975, 14)
 
+print('Min value in samples: %.10f' % samples.min())
+# -> 0.0039062500
+print('Max value in samples: %.10f' % samples.max())
+# -> 0.9960937500
+print()
+
 for i in range(10):
     print(" ".join("%.4f" % value for value in samples[i]))
 # 0.4492 0.5508 0.8086 0.3867 0.4648 0.4336 0.4492 0.6523 0.4922 0.4805 0.4961 0.3516 0.0195 0.5078

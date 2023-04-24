@@ -11,6 +11,12 @@ labels = json.load(open('labels.json', 'r'))
 print(samples.shape)
 # -> (201275, 250, 14)
 
+print('Min value in samples: %d' % samples.min())
+# -> 1
+print('Max value in samples: %d' % samples.max())
+# -> 255
+print()
+
 # There's not only one EMG/IMU signal per tick, but also historical data:
 HISTORICAL_DATA_SIZE = samples.shape[1]
 CHANNEL = 0
